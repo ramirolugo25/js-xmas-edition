@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tarea 1</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='tarea-1.css'>
+    
+</head>
+<body>
+    <form>
+        <label>Ingrese la cantidad de personas en el grupo familiar</label>
+        <input type="number" id="cantidad-personas" name="cantidad-personas">
+        <input type="button" value="Aceptar" id="boton-aceptar">
+
+        <div id="integrantes">
+
+        </div>
+        
+        <input type="button" value="Calcular" id="boton-calcular" class="oculto">
+        <input type="reset" value="Empezar de Nuevo" id="boton-empezar-de-nuevo" class="oculto">
+
+        <div id="resultados" class="oculto">
+        <label>La mayor edad</label>
+        <input type="number" id="mayor-edad" disabled>
+        <label>La menor edad</label>
+        <input type="number" id="menor-edad" disabled>
+        <label>Promedio</label>
+        <input type="number" id="promedio-edad" disabled>
+        </div>
+        
+        <ul id="errores">
+
+        </ul>
+
+    </form>
+    <script type="text/javascript" src='tarea-1-funciones.js'></script>
+    <script type="text/javascript" src='tarea-1.js'></script>
+    <script type="text/javascript" src='tarea-1-pruebas.js'></script>
+</body>
+</html>
